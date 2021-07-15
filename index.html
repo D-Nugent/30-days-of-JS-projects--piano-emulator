@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piano Emulator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Piano Emulator</h1>
+  <section class="keyboard">
+    <div class="b-keys">
+      <div class="b-keys__de">
+        <div data-key="49" class="b-keys__key">1</div>
+        <div data-key="50" class="b-keys__key">2</div>
+      </div>
+      <div class="b-keys__gab">
+        <div data-key="52" class="b-keys__key">4</div>
+        <div data-key="53" class="b-keys__key">5</div>
+        <div data-key="54" class="b-keys__key">6</div>
+      </div>
+      <div class="b-keys__de">
+        <div data-key="56" class="b-keys__key">8</div>
+        <div data-key="57" class="b-keys__key">9</div>
+      </div>
+      <div class="b-keys__gab">
+        <div data-key="189" class="b-keys__key">-</div>
+        <div data-key="187" class="b-keys__key">=</div>
+        <div data-key="8" class="b-keys__key"><</div>
+      </div>
+    </div>
+    <div class="w-keys">
+      <div data-key="9" class="w-keys__key">TAB</div>
+      <div data-key="81" class="w-keys__key">Q</div>
+      <div data-key="87" class="w-keys__key">W</div>
+      <div data-key="69" class="w-keys__key">E</div>
+      <div data-key="82" class="w-keys__key">R</div>
+      <div data-key="84" class="w-keys__key">T</div>
+      <div data-key="89" class="w-keys__key">Y</div>
+      <div data-key="85" class="w-keys__key">U</div>
+      <div data-key="73" class="w-keys__key">I</div>
+      <div data-key="79" class="w-keys__key">O</div>
+      <div data-key="80" class="w-keys__key">P</div>
+      <div data-key="219" class="w-keys__key">[</div>
+      <div data-key="221" class="w-keys__key">]</div>
+      <div data-key="220" class="w-keys__key">\</div>
+    </div>
+  </section>
+  <article class="credit">
+    <p class="credit__msg">
+      This piano emulator was created by David Nugent. If you'd like to see more,
+      feel free to check out his github <a tabindex="-1" href="http://www.github.com/d-nugent">here</a> or
+      his portfolio site <a tabindex="-1" href="http://davidnugent.me">here</a>
+    </p>
+  </article>
+  <audio data-key="9" src="./assets/audio/c3.ogg"></audio>
+  <audio data-key="49" src="./assets/audio/c-3.ogg"></audio>
+  <audio data-key="81" src="./assets/audio/d3.ogg"></audio>
+  <audio data-key="50" src="./assets/audio/d-3.ogg"></audio>
+  <audio data-key="87" src="./assets/audio/e3.ogg"></audio>
+  <audio data-key="69" src="./assets/audio/f3.ogg"></audio>
+  <audio data-key="52" src="./assets/audio/f-3.ogg"></audio>
+  <audio data-key="82" src="./assets/audio/g3.ogg"></audio>
+  <audio data-key="53" src="./assets/audio/g-3.ogg"></audio>
+  <audio data-key="84" src="./assets/audio/a3.ogg"></audio>
+  <audio data-key="54" src="./assets/audio/a-3.ogg"></audio>
+  <audio data-key="89" src="./assets/audio/b3.ogg"></audio>
+  <audio data-key="85" src="./assets/audio/c4.ogg"></audio>
+  <audio data-key="56" src="./assets/audio/c-4.ogg"></audio>
+  <audio data-key="73" src="./assets/audio/d4.ogg"></audio>
+  <audio data-key="57" src="./assets/audio/d-4.ogg"></audio>
+  <audio data-key="79" src="./assets/audio/e4.ogg"></audio>
+  <audio data-key="80" src="./assets/audio/f4.ogg"></audio>
+  <audio data-key="189" src="./assets/audio/f-4.ogg"></audio>
+  <audio data-key="219" src="./assets/audio/g4.ogg"></audio>
+  <audio data-key="187" src="./assets/audio/g-4.ogg"></audio>
+  <audio data-key="221" src="./assets/audio/a4.ogg"></audio>
+  <audio data-key="8" src="./assets/audio/a-4.ogg"></audio>
+  <audio data-key="220" src="./assets/audio/b4.ogg"></audio>
+  <script src="./script.js"></script>
+</body>
+</html>
